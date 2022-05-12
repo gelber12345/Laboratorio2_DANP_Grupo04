@@ -11,6 +11,9 @@ import com.example.laboratorio2.Screens.SecondScreen
 
 @Composable
 fun AppNavigation(){
+    /*
+        First comment
+     */
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = AppScreens.FirstSreen.route ){
         composable(
