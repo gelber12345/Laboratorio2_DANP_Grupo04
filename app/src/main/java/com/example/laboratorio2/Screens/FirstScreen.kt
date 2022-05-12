@@ -17,6 +17,9 @@ import androidx.navigation.NavController
 import com.example.laboratorio2.Navigation.AppScreens
 
 
+/*
+    FirstScreen method
+ */
 @Composable
 fun FirstScreen(navController: NavController){
     Scaffold(
